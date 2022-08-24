@@ -1,11 +1,11 @@
 var firebaseConfig = {
-  apiKey: "AIzaSyDIGcg044Wds3rEgBT7SGOUT2-RPyln7Kg",
-  authDomain: "fir-101-d61c8.firebaseapp.com",
-  projectId: "fir-101-d61c8",
-  storageBucket: "fir-101-d61c8.appspot.com",
-  messagingSenderId: "658019807237",
-  appId: "1:658019807237:web:bb0710817fe8328f816c6c",
-  measurementId: "G-LSCPQFV19E"
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
 
 
