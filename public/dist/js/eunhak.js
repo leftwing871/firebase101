@@ -1,12 +1,13 @@
 var firebaseConfig = {
-  apiKey: "AIzaSyC0ticBlzzxs4XHsIKwgneC5hwTHtBsb1c",
-  authDomain: "eunhak-zzang.firebaseapp.com",
-  projectId: "eunhak-zzang",
-  storageBucket: "eunhak-zzang.appspot.com",
-  messagingSenderId: "132361940347",
-  appId: "1:132361940347:web:cbeacc8fb6255b7831a1de",
-  measurementId: "G-2BQH2L1F5Z"
+  apiKey: "AIzaSyDIGcg044Wds3rEgBT7SGOUT2-RPyln7Kg",
+  authDomain: "fir-101-d61c8.firebaseapp.com",
+  projectId: "fir-101-d61c8",
+  storageBucket: "fir-101-d61c8.appspot.com",
+  messagingSenderId: "658019807237",
+  appId: "1:658019807237:web:bb0710817fe8328f816c6c",
+  measurementId: "G-LSCPQFV19E"
 };
+
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
@@ -17,6 +18,7 @@ var db = firebase.firestore();
 
 $(document).ready(function ($) {
 
+  //로그인 상태에 변동이 있을때 실행됨
   firebase.auth().onAuthStateChanged(function (user) {
     if (user) {
       console.log(user);
